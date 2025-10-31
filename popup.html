@@ -3,19 +3,45 @@
   <meta charset="UTF-8">
   <title>Acelerador de Vídeos</title>
   <style>
-    body { 
-      font-family: sans-serif; 
-      background: #f9f9f9; 
+    body {
+      font-family: sans-serif;
+      background: #f9f9f9;
       color: #333;
-      width: 250px;
+      width: 260px;
       padding: 15px;
       box-sizing: border-box;
     }
-    h1 { font-size: 16px; margin-bottom: 10px; color: #007bff; }
-    ul { padding-left: 20px; margin: 0; }
-    li { margin: 5px 0; }
-    .rate { margin-top: 10px; font-size: 13px; color: #555; }
-    footer { margin-top: 15px; font-size: 12px; text-align: center; color: #777; }
+    h1 {
+      font-size: 16px;
+      margin-bottom: 10px;
+      color: #d93025; /* vermelho do ícone */
+    }
+    ul {
+      padding-left: 20px;
+      margin: 0;
+    }
+    li {
+      margin: 5px 0;
+    }
+    .rate {
+      margin-top: 10px;
+      font-size: 13px;
+      color: #555;
+    }
+    footer {
+      margin-top: 15px;
+      font-size: 12px;
+      text-align: center;
+      color: #777;
+    }
+    footer a {
+      color: #d93025;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
@@ -26,7 +52,12 @@
     <li><b>Ctrl + Shift + ↓</b> — Resetar para 1x</li>
   </ul>
   <div class="rate" id="currentRate"></div>
-  <footer>© Rafael Patrick</footer>
+
+  <footer>
+    ❤️ Apoie no <a href="https://patreon.com/faelpatrick" target="_blank">Patreon</a><br>
+    para manter este projeto gratuito.
+  </footer>
+
   <script src="popup.js"></script>
 </body>
 </html>
