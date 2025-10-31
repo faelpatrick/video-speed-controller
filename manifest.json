@@ -4,6 +4,7 @@
   "version": "1.3.2",
   "description": "Acelera, desacelera ou reseta qualquer vídeo com Ctrl+Shift+→, Ctrl+Shift+← e Ctrl+Shift+↓. Desenvolvido por Rafael Patrick.",
   "author": "Rafael Patrick de Souza",
+  "support_url": "https://patreon.com/faelpatrick",
   "homepage_url": "https://github.com/faelpatrick/video-speed-controller",
   "permissions": ["storage", "scripting", "activeTab"],
   "action": {

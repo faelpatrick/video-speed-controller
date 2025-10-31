@@ -32,3 +32,22 @@ Extensão para Google Chrome que acelera, desacelera ou reseta a velocidade de *
 1. Faça o download ou clone este repositório:
    ```bash
    git clone https://github.com/faelpatrick/video-speed-controller
+
+---
+
+## ❤️ Apoie este Projeto
+
+Este projeto foi criado e mantido por **Rafael Patrick de Souza**, de forma totalmente independente e sem patrocínio.  
+Se este acelerador de vídeos te ajuda no dia a dia — seja em aulas, cursos, ou no YouTube — considera apoiar o desenvolvimento.  
+
+Com a tua ajuda, posso:
+- Cobrir a taxa da **Chrome Web Store** (para disponibilizar a extensão oficialmente);
+- Criar **novas funcionalidades** (atalhos configuráveis, memória de velocidade por site, integração com players personalizados);
+- Manter tudo **livre, gratuito e sem anúncios**.
+
+👉 Apoia aqui: [**Patreon.com/faelpatrick**](https://patreon.com/faelpatrick)
+
+Mesmo uma pequena contribuição já faz diferença enorme 💪  
+Se não puder apoiar financeiramente, **dá uma estrela no GitHub** ⭐ — isso também ajuda muito na visibilidade!
+
+---
