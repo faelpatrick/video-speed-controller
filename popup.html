@@ -1,0 +1,32 @@
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Acelerador de Vídeos</title>
+  <style>
+    body { 
+      font-family: sans-serif; 
+      background: #f9f9f9; 
+      color: #333;
+      width: 250px;
+      padding: 15px;
+      box-sizing: border-box;
+    }
+    h1 { font-size: 16px; margin-bottom: 10px; color: #007bff; }
+    ul { padding-left: 20px; margin: 0; }
+    li { margin: 5px 0; }
+    .rate { margin-top: 10px; font-size: 13px; color: #555; }
+    footer { margin-top: 15px; font-size: 12px; text-align: center; color: #777; }
+  </style>
+</head>
+<body>
+  <h1>Manual Rápido</h1>
+  <ul>
+    <li><b>Ctrl + Shift + →</b> — Acelerar vídeo</li>
+    <li><b>Ctrl + Shift + ←</b> — Desacelerar vídeo</li>
+    <li><b>Ctrl + Shift + ↓</b> — Resetar para 1x</li>
+  </ul>
+  <div class="rate" id="currentRate"></div>
+  <footer>© Rafael Patrick</footer>
+  <script src="popup.js"></script>
+</body>
+</html>
