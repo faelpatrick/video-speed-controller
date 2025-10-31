@@ -1,0 +1,30 @@
+# Sistema / IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs e temporários
+*.log
+*.tmp
+
+# Backup do Windows
+*.bak
+*.old
+
+# Cache de navegador / extensão
+chrome-extension-*
+*.crx
+*.pem
+
+# Node (caso use ferramentas auxiliares no futuro)
+node_modules/
+package-lock.json
+
+# Builds ou exportações manuais
+dist/
+build/
+out/
+
+# Arquivos de sistema
+desktop.ini
